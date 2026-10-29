@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0b1020">
+  <meta name="description" content="CvanshTALKS: UPSC CSE preparation hub for notes, current affairs, lectures and study planning.">
+  <title>CvanshTALKS | UPSC Study Hub</title>
+  <style>
+    :root{--bg:#090d18;--panel:#11182a;--panel2:#151e33;--line:#26314a;--text:#f2f5ff;--muted:#aab5ce;--blue:#7c9cff;--cyan:#75e0dc;--gold:#f1c879;--radius:20px;--shadow:0 18px 50px #0005}
+    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:radial-gradient(ellipse at 85% -10%,#23365d 0,transparent 36%),radial-gradient(ellipse at 0% 30%,#17254a 0,transparent 28%),var(--bg);color:var(--text);font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;line-height:1.55}
+    a{color:inherit;text-decoration:none}button,input{font:inherit}.wrap{width:min(1120px,calc(100% - 32px));margin:auto}
+    header{position:sticky;top:0;z-index:10;background:#090d18d9;backdrop-filter:blur(16px);border-bottom:1px solid #ffffff12}
+    .nav{height:72px;display:flex;align-items:center;justify-content:space-between;gap:18px}.brand{display:flex;align-items:center;gap:11px;font-weight:850;letter-spacing:-.5px}.logo{width:39px;height:39px;border-radius:13px;background:linear-gradient(135deg,var(--blue),var(--cyan));display:grid;place-items:center;color:#07101c;font-weight:950;box-shadow:0 6px 24px #7c9cff40}.brand small{display:block;color:var(--muted);font-weight:500;letter-spacing:1.5px;font-size:9px;margin-top:-3px}.navlinks{display:flex;gap:22px;color:var(--muted);font-size:13px}.navlinks a:hover{color:white}.menu{display:none;background:var(--panel);border:1px solid var(--line);color:white;border-radius:11px;padding:8px 11px}
+    .hero{padding:72px 0 45px;display:grid;grid-template-columns:1.18fr .82fr;gap:42px;align-items:center}.eyebrow{display:inline-flex;align-items:center;gap:8px;border:1px solid #7c9cff4a;background:#7c9cff12;color:#b8c8ff;border-radius:999px;padding:7px 12px;font-size:12px;font-weight:750}.dot{width:7px;height:7px;border-radius:50%;background:var(--cyan);box-shadow:0 0 12px var(--cyan)}h1{font-size:clamp(39px,6.2vw,68px);line-height:1.02;letter-spacing:-2.8px;margin:20px 0}.gradient{background:linear-gradient(100deg,#fff 10%,#aabaff 55%,#75e0dc);-webkit-background-clip:text;background-clip:text;color:transparent}.lead{color:var(--muted);font-size:16px;max-width:590px}.actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:26px}.btn{display:inline-flex;align-items:center;justify-content:center;gap:9px;border-radius:13px;padding:12px 17px;border:1px solid var(--line);font-weight:750;font-size:13px;cursor:pointer;transition:.2s}.btn.primary{background:linear-gradient(120deg,#91a9ff,#76e1dc);color:#08111d;border:0}.btn.secondary{background:#ffffff08}.btn:hover{transform:translateY(-2px)}.fine{font-size:11px;color:var(--muted);margin-top:15px}
+    .hero-card{position:relative;background:linear-gradient(145deg,#192744,#0f1729 65%);border:1px solid #ffffff19;border-radius:26px;padding:23px;box-shadow:var(--shadow);overflow:hidden}.hero-card:before{content:"";position:absolute;width:200px;height:200px;right:-80px;top:-90px;background:#7c9cff20;filter:blur(8px);border-radius:50%}.card-top{display:flex;justify-content:space-between;align-items:center;font-size:12px;color:var(--muted)}.live{color:var(--cyan);font-size:11px}.focus-title{font-size:23px;font-weight:800;margin:20px 0 5px}.focus-sub{font-size:12px;color:var(--muted)}.progress{height:7px;border-radius:10px;background:#ffffff13;margin:16px 0 7px;overflow:hidden}.progress span{display:block;width:62%;height:100%;background:linear-gradient(90deg,var(--blue),var(--cyan));border-radius:10px}.mini-grid{display:grid;grid-template-columns:1fr 1fr;gap:11px;margin-top:19px}.mini{border:1px solid #ffffff12;background:#ffffff06;border-radius:15px;padding:13px}.mini strong{display:block;font-size:19px}.mini span{color:var(--muted);font-size:11px}
+    .stats{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin:10px auto 62px}.stat{border:1px solid #ffffff12;background:#ffffff05;border-radius:15px;padding:16px 18px}.stat strong{font-size:20px;display:block}.stat span{font-size:12px;color:var(--muted)}
+    section{padding:34px 0 54px}.section-head{display:flex;justify-content:space-between;align-items:end;gap:20px;margin-bottom:23px}.kicker{font-size:11px;text-transform:uppercase;letter-spacing:2px;color:var(--cyan);font-weight:800}.section-head h2{font-size:clamp(26px,4vw,36px);line-height:1.1;letter-spacing:-1px;margin:7px 0}.section-head p{color:var(--muted);font-size:13px;max-width:470px;margin:0}.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}.tile{background:linear-gradient(145deg,#151e32,#0e1423);border:1px solid #ffffff12;border-radius:var(--radius);padding:20px;min-height:190px;transition:.2s}.tile:hover{border-color:#7c9cff65;transform:translateY(-3px)}.tile-icon{width:43px;height:43px;display:grid;place-items:center;border-radius:14px;background:#7c9cff18;border:1px solid #7c9cff24;font-size:21px;margin-bottom:17px}.tile h3{font-size:16px;margin:0 0 7px}.tile p{font-size:12px;color:var(--muted);margin:0 0 15px}.text-link{font-size:12px;font-weight:800;color:#aebeff}.tag{font-size:10px;letter-spacing:.3px;padding:5px 8px;border-radius:7px;background:#f1c87915;color:var(--gold);border:1px solid #f1c87928}
+    .split{display:grid;grid-template-columns:1fr 1fr;gap:18px}.panel{background:linear-gradient(145deg,#141e33,#0d1423);border:1px solid #ffffff13;border-radius:22px;padding:23px}.panel h3{font-size:19px;margin:0 0 7px}.panel>p{font-size:13px;color:var(--muted);margin:0 0 18px}.subject-list{display:grid;gap:9px}.subject{display:flex;justify-content:space-between;align-items:center;gap:12px;border:1px solid #ffffff0e;background:#ffffff05;padding:12px 13px;border-radius:12px;font-size:13px}.subject small{color:var(--muted);font-size:11px}.subject b{font-size:11px;color:var(--cyan)}
+    .news-item{padding:13px 0;border-bottom:1px solid #ffffff12}.news-item:last-child{border:0}.news-item .date{font-size:10px;color:var(--cyan);text-transform:uppercase;letter-spacing:1px}.news-item h4{font-size:14px;margin:4px 0}.news-item p{font-size:12px;color:var(--muted);margin:0}.notice{background:#f1c8790d;border:1px solid #f1c87935;color:#e8d4a4;padding:13px 15px;border-radius:13px;font-size:11px;margin-top:15px}
+    .roadmap{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}.step{border-top:2px solid #7c9cff;padding:15px 13px;background:#ffffff05;border-radius:0 0 14px 14px}.step span{font-size:10px;color:var(--cyan);letter-spacing:1px;font-weight:800}.step h3{font-size:14px;margin:7px 0}.step p{font-size:11px;color:var(--muted);margin:0}
+    .cta{background:linear-gradient(110deg,#1b2a4a,#15263a);border:1px solid #ffffff18;border-radius:24px;padding:27px;display:flex;align-items:center;justify-content:space-between;gap:20px}.cta h2{font-size:25px;margin:0 0 6px;letter-spacing:-.7px}.cta p{font-size:12px;color:var(--muted);margin:0}
+    footer{margin-top:42px;border-top:1px solid #ffffff12;padding:26px 0 35px;color:var(--muted);font-size:11px}.foot{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap}.foot strong{color:var(--text)}
+    .toast{position:fixed;bottom:18px;left:50%;transform:translate(-50%,20px);opacity:0;pointer-events:none;background:#e5f2ff;color:#101827;border-radius:12px;padding:12px 16px;box-shadow:var(--shadow);font-size:12px;font-weight:700;transition:.25s;z-index:30;max-width:calc(100% - 28px)}.toast.show{opacity:1;transform:translate(-50%,0)}
+    @media(max-width:800px){.hero{grid-template-columns:1fr;padding-top:48px;gap:26px}.hero-card{max-width:520px}.grid{grid-template-columns:repeat(2,1fr)}.roadmap{grid-template-columns:repeat(2,1fr)}.navlinks{display:none;position:absolute;top:72px;left:0;right:0;background:#0b1020;padding:18px 22px;border-bottom:1px solid var(--line);flex-direction:column;gap:15px}.navlinks.open{display:flex}.menu{display:block}.stats{margin-bottom:30px}}
+    @media(max-width:520px){.wrap{width:min(100% - 24px,1120px)}.nav{height:64px}.navlinks{top:64px}.brand{font-size:14px}.hero{padding-top:39px}h1{letter-spacing:-1.7px}.lead{font-size:14px}.grid,.split{grid-template-columns:1fr}.tile{min-height:auto}.stats{gap:8px}.stat{padding:12px}.stat strong{font-size:17px}.stat span{font-size:10px}.section-head{display:block}.section-head p{margin-top:8px}.roadmap{grid-template-columns:1fr 1fr}.cta{display:block}.cta .btn{margin-top:17px;width:100%}.hero-card{padding:18px}}
+    @media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important;transition:none!important}}
+  </style>
+</head>
+<body>
+<header>
+  <div class="wrap nav">
+    <a class="brand" href="#home" aria-label="CvanshTALKS home"><span class="logo">C</span><span>CvanshTALKS<small>UPSC STUDY HUB</small></span></a>
+    <nav class="navlinks" id="navlinks" aria-label="Main navigation">
+      <a href="#resources">Resources</a><a href="#current">Current Affairs</a><a href="#planner">Study Planner</a><a href="#roadmap">Roadmap</a>
+    </nav>
+    <button class="menu" id="menuBtn" aria-expanded="false" aria-controls="navlinks">☰ Menu</button>
+  </div>
+</header>
+<main>
+  <div class="wrap">
+    <section class="hero" id="home">
+      <div>
+        <div class="eyebrow"><span class="dot"></span> YOUR UPSC PREP, ONE STEP AT A TIME</div>
+        <h1>Prepare with clarity.<br><span class="gradient">Progress with purpose.</span></h1>
+        <p class="lead">UPSC CSE preparation ko organised banao. Find subject-wise study resources, revise important concepts, follow a practical routine and keep moving towards your goal.</p>
+        <div class="actions"><a class="btn primary" href="#resources">Explore Resources <span>↗</span></a><a class="btn secondary" href="#planner">Plan My Study <span>→</span></a></div>
+        <p class="fine">Free to explore · Mobile-friendly · Built for aspirants</p>
+      </div>
+      <aside class="hero-card" aria-label="Study hub preview">
+        <div class="card-top"><span>YOUR PREP OVERVIEW</span><span class="live">● START HERE</span></div>
+        <div class="focus-title">Aaj ka focus 🎯</div>
+        <div class="focus-sub">Choose one topic. Study it well. Revise it once.</div>
+        <div class="progress"><span></span></div>
+        <div class="card-top"><span>Sample weekly plan</span><span>Preview only</span></div>
+        <div class="mini-grid">
+          <div class="mini"><strong>GS</strong><span>Static subjects</span></div>
+          <div class="mini"><strong>CA</strong><span>Current affairs</span></div>
+          <div class="mini"><strong>MCQ</strong><span>Practice sessions</span></div>
+          <div class="mini"><strong>Revise</strong><span>Recall & repeat</span></div>
+        </div>
+      </aside>
+    </section>
+
+    <div class="stats" aria-label="Platform highlights">
+      <div class="stat"><strong>GS 1–4</strong><span>General Studies coverage</span></div>
+      <div class="stat"><strong>Prelims + Mains</strong><span>Integrated preparation</span></div>
+      <div class="stat"><strong>Daily habits</strong><span>Consistency over cramming</span></div>
+    </div>
+
+    <section id="resources">
+      <div class="section-head"><div><div class="kicker">Study library</div><h2>Resources for your next step</h2></div><p>Start with a subject, revise core concepts, and build your preparation one block at a time.</p></div>
+      <div class="grid">
+        <article class="tile"><div class="tile-icon">📚</div><h3>Notes & PDFs</h3><p>Subject-wise notes for quick revision. Add your verified PDF links as you build the library.</p><a class="text-link" href="#subjects">Browse subjects ↗</a></article>
+        <article class="tile"><div class="tile-icon">🧠</div><h3>Quiz & MCQs</h3><p>Practice tests and answer explanations are planned for a later version.</p><span class="tag">COMING SOON · NOT LIVE</span></article>
+        <article class="tile"><div class="tile-icon">📰</div><h3>Current Affairs</h3><p>Use the section below as a layout preview. Replace sample content with verified, dated updates.</p><a class="text-link" href="#current">View section ↗</a></article>
+        <article class="tile"><div class="tile-icon">▶️</div><h3>Video Lectures</h3><p>Curate topic-wise lectures from reliable public educational channels.</p><a class="text-link" href="#lectures">Lecture links ↗</a></article>
+        <article class="tile"><div class="tile-icon">📈</div><h3>Study Tracker</h3><p>A personal tracker that saves progress to your account needs a database, planned later.</p><span class="tag">COMING SOON · NOT LIVE</span></article>
+        <article class="tile"><div class="tile-icon">👥</div><h3>Student Community</h3><p>Doubt discussions and student profiles will be added only after moderation and safety controls.</p><span class="tag">COMING SOON · NOT LIVE</span></article>
+      </div>
+    </section>
+
+    <section id="subjects">
+      <div class="section-head"><div><div class="kicker">Syllabus explorer</div><h2>Start with a subject</h2></div><p>Use this as a starter index. Add original notes or links to resources you are allowed to share.</p></div>
+      <div class="split">
+        <div class="panel"><h3>Prelims & GS Foundation</h3><p>Build conceptual clarity before increasing speed.</p><div class="subject-list">
+          <div class="subject"><span>Indian Polity</span><small>Constitution · Governance</small></div>
+          <div class="subject"><span>History & Culture</span><small>Ancient to Modern</small></div>
+          <div class="subject"><span>Geography</span><small>India · World · Mapping</small></div>
+          <div class="subject"><span>Economy</span><small>Basics · Budget · Banking</small></div>
+          <div class="subject"><span>Environment & Ecology</span><small>Biodiversity · Climate</small></div>
+          <div class="subject"><span>Science & Technology</span><small>Core concepts · Applications</small></div>
+        </div></div>
+        <div class="panel" id="lectures"><h3>Lectures & revision</h3><p>Add trusted video links here. These starter buttons are examples, not an integrated video library.</p><div class="subject-list">
+          <a class="subject external-demo" href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer"><span>Search GS foundation lectures</span><b>YOUTUBE ↗</b></a>
+          <a class="subject external-demo" href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer"><span>Search answer-writing guidance</span><b>YOUTUBE ↗</b></a>
+          <a class="subject external-demo" href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer"><span>Search CSAT practice sessions</span><b>YOUTUBE ↗</b></a>
+          <a class="subject external-demo" href="https://upsc.gov.in/" target="_blank" rel="noopener noreferrer"><span>Official UPSC website</span><b>OFFICIAL ↗</b></a>
+        </div><div class="notice">Tip: Prefer official sources for exam notifications and syllabus. Check dates before sharing current affairs.</div></div>
+      </div>
+    </section>
+
+    <section id="current">
+      <div class="section-head"><div><div class="kicker">Daily reading corner</div><h2>Current affairs desk</h2></div><p>This is placeholder content to show the layout. It is not today's news and must be updated before publishing as a live news section.</p></div>
+      <div class="panel">
+        <div class="news-item"><div class="date">Sample item · Replace before use</div><h4>Polity: Understand a constitutional provision</h4><p>Write a short, factual summary, why it matters for UPSC, and the source with publication date.</p></div>
+        <div class="news-item"><div class="date">Sample item · Replace before use</div><h4>Economy: Connect a concept to the news</h4><p>Add key terms, background, possible Prelims facts and a balanced Mains angle.</p></div>
+        <div class="news-item"><div class="date">Sample item · Replace before use</div><h4>Environment: Note the issue and its impact</h4><p>Include verified data only, identify the source, and avoid copying copyrighted articles.</p></div>
+        <div class="notice">Editorial reminder: add source links and dates to every real update. Do not present these sample cards as actual current affairs.</div>
+      </div>
+    </section>
+
+    <section id="planner">
+      <div class="section-head"><div><div class="kicker">Study system</div><h2>Keep the routine realistic</h2></div><p>A simple planning framework for now. Personal accounts and saved progress are not connected in this first version.</p></div>
+      <div class="split">
+        <div class="panel"><h3>Daily study checklist</h3><p>Tick items during this visit. These checkboxes reset when the page is refreshed.</p><div class="subject-list" id="checklist">
+          <label class="subject"><span>Revise one previous topic</span><input type="checkbox"></label>
+          <label class="subject"><span>Study one GS topic</span><input type="checkbox"></label>
+          <label class="subject"><span>Read current affairs from a verified source</span><input type="checkbox"></label>
+          <label class="subject"><span>Practise questions / answer writing</span><input type="checkbox"></label>
+          <label class="subject"><span>Plan tomorrow's first task</span><input type="checkbox"></label>
+        </div></div>
+        <div class="panel"><h3>Weekly review</h3><p>Use these prompts in your notebook or notes app.</p><div class="subject-list">
+          <div class="subject"><span>What did I complete?</span><small>Review</small></div>
+          <div class="subject"><span>Which topics need revision?</span><small>Recall</small></div>
+          <div class="subject"><span>What did my tests teach me?</span><small>Improve</small></div>
+          <div class="subject"><span>What is next week's priority?</span><small>Plan</small></div>
+        </div><div class="notice">Saved dashboard, streaks, and cross-device sync will need a real backend and authenticated accounts.</div></div>
+      </div>
+    </section>
+
+    <section id="roadmap">
+      <div class="section-head"><div><div class="kicker">Build in public</div><h2>From starter site to study platform</h2></div><p>Features will be added in stages so each part can be tested before students depend on it.</p></div>
+      <div class="roadmap">
+        <div class="step"><span>PHASE 01</span><h3>Public website</h3><p>Responsive pages, subject index, curated links and verified content.</p></div>
+        <div class="step"><span>PHASE 02</span><h3>Quiz + tracker</h3><p>Scoring, explanations, progress records and proper data storage.</p></div>
+        <div class="step"><span>PHASE 03</span><h3>Secure login + admin</h3><p>Role permissions, protected publishing tools and server-side validation.</p></div>
+        <div class="step"><span>PHASE 04</span><h3>Community</h3><p>Moderation, reporting, spam controls and clear community rules.</p></div>
+      </div>
+    </section>
+    <div class="cta"><div><h2>One topic. One revision. One day at a time.</h2><p>CvanshTALKS · Your UPSC preparation companion.</p></div><a class="btn primary" href="#home">Back to top ↑</a></div>
+  </div>
+</main>
+<footer><div class="wrap foot"><div><strong>CvanshTALKS</strong><br>Independent study project. Not affiliated with UPSC or any government body.</div><div>Static starter version · No login or database connected<br>Verify resources and current affairs before relying on them.</div></div></footer>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+<script>
+  const menuBtn = document.getElementById('menuBtn');
+  const navlinks = document.getElementById('navlinks');
+  menuBtn.addEventListener('click', () => {
+    const open = navlinks.classList.toggle('open');
+    menuBtn.setAttribute('aria-expanded', String(open));
+  });
+  navlinks.querySelectorAll('a').forEach(link => link.addEventListener('click', () => {
+    navlinks.classList.remove('open');
+    menuBtn.setAttribute('aria-expanded', 'false');
+  }));
+</script>
+</body>
+</html>
